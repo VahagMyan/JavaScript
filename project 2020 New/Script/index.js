@@ -304,3 +304,172 @@ console.log(y); */
 /* var arr = new Array('3');
 console.log(arr.length, arr); */
 
+
+/* var nums = [-1, 300, 12, 110, -901];
+
+for (var i = 0; i < nums.length; i++){
+    for (var j = 0; j < nums.length; j++){
+        if (nums[i] < nums[j]){
+            var container = nums[i];
+            nums[i] = nums[j];
+            nums[j] = container;
+        }
+    }
+}
+
+console.log(nums); */
+
+/* var f = function() {
+    alert('test');
+}
+
+f(); */
+
+/* f();
+var f; */
+
+/* console.log(a);
+var a = 10; */
+
+// f();
+// var f = function (){
+//     alert();
+// }
+
+/* function f(){
+    console.log(arguments[0]);
+}
+
+f(4, 50); */
+
+/* function f (a, b, c) {
+    console.log(f.length);
+}
+
+f(); */
+
+/* var human = new Object();
+
+human.name = 'Exo';
+human.age = 30;
+
+human.sayName = function(){
+    alert(this.name);
+}
+
+human.sayName();
+console.log(human);
+console.log(typeof human); */
+
+/* var human = {
+    name : 'Exo',
+    age : 30,
+    sayName : function(){
+        alert(this.name);
+    }
+}
+
+human.sayName();
+
+human.lastName = 'Exoyan';
+human.age = 31; */
+
+/* var arr = [];
+
+function f() {
+
+}
+
+console.log(f instanceof Object); */
+// console.log(arr instanceof Object);
+
+/* var obj = {
+    age: 30
+}
+
+function f() {
+    console.log(this.age);
+}
+
+f();
+obj.sayAge = f;
+obj.sayAge ();
+
+console.log(this);
+
+var a = 10;
+console.log(window.a); */
+/* this.a;
+
+window === this;
+console.log(window === this); */
+
+/* var age = 100;
+var obj = {
+    age: 10,
+    sayAge : function () {
+        f();
+    }
+}
+
+function f() {
+    console.log(this.age);
+}
+
+obj.sayAge(); */
+
+/* function Person(a, b, c) {
+    this.firstName = a;
+    this.lastName = b;
+    this.age = c;
+    this.sayFullName = function() {
+        console.log(`My name is ${this.firstName} ${this.lastName}`);
+    }
+}
+
+var human0 = new Person('Exo', 'Exoyan', 40);
+human0.sayFullName();
+var human1 = new Person('Vazgen', 'Matevosyan', 50);
+human1.sayFullName();
+
+console.log(human0.age);
+console.log(human1.age);
+console.log(human0 instanceof Person);
+ */
+
+/* 018 == 18;
+console.log(018 == 18);
+
+console.log(0b10);
+
+console.log(0O10);
+
+console.log(0o10);
+
+console.log(0x10);
+console.log(0X10); */
+
+/* true.toString();
+console.log(typeof true.toString());
+
+var x = 5;
+
+console.log(x.toString()); */
+
+getMax (5, -10, 200, 3);
+mek tiv grvelu depqum alert
+maximumi arjeqy gtnenq
+ete tvic baci urish ban grenq, nshvi vor tiv chi
+getMax(5);
+NaN
+    undefined
+isNaN(NaN);
+
+constructor sarqenq, vor erb grenq 
+var obj = new F(); normal ashxati,
+bayc ete
+F() ete kanchenq arandzin aranc new-i sxal beri
+
+sarqel custom Math absolute floor round max min
+
+ham el sortavorman xndir lucel
